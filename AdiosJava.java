@@ -5,11 +5,21 @@ public class AdiosJava{
 
         int numero1, numero2;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Escribe el primer numero: ");
+        System.out.println("------ SUMA ------");
+        System.out.println("Escribe el primer numero para la suma: ");
         numero1 = scanner.nextInt();
-        System.out.println("Escribe el segundo numero: ");
+        System.out.println("Escribe el segundo numero para la suma: ");
         numero2 = scanner.nextInt();
         int resultado = numero1 + numero2;
         System.out.println("El resultado de la suma es: " + resultado);
+
+        System.out.println("------ RESTA ------");
+        System.out.println("Escribe el primer numero para la resta: ");
+        numero1 = scanner.nextInt();
+        System.out.println("Escribe el segundo numero para la resta: ");
+        numero2 = scanner.nextInt();
+        resultado = numero1 - numero2;
+        System.out.println("El resultado de la resta es: " + resultado);
+
     }
 }
