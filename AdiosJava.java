@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class AdiosJava{
     public static void main(String[] args){
+        public static int multiplicar (int n1, intn2){
+            return n1 * n2;
+        }
         
         int numero1, numero2;
         Scanner scanner = new Scanner(System.in);
