@@ -2,8 +2,12 @@ import java.util.Scanner;
 
 public class AdiosJava{
     public static void main(String[] args){
-        public static int multiplicar (int n1, intn2){
-            return n1 * n2;
+
+        public static double Divison (double numero1, double numero2){
+            return numero1 / numero2;
+        }
+        public static int multiplicar (int numero1, int numero2){
+            return numero1 * numero2;
         }
         
         int numero1, numero2;
